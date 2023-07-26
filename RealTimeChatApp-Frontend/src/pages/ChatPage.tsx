@@ -104,7 +104,10 @@ const ChatPage = ({ username }: ChatPageProps) => {
             </header>
             <main className="chat-main">
                 <div className="chat-sidebar">
-                    <h3><i className="fas fa-users"></i> Users</h3>
+                    <div style={{display:'flex', alignItems:'center'}}>
+                        <img src="/users.png" alt="User Icon" style={{height:'24px',width:'24px'}} className="user-icon" />
+                        <h3><i className="fas fa-users" style={{marginLeft:'20px'}}></i> Users</h3>
+                    </div>
                     <ul>
                         {userList.map((user, index) => (
                             <li key={index}>{user}</li>

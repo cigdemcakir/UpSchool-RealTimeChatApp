@@ -469,24 +469,25 @@
     ]
   },
   "packageFolders": {
-    "/Users/cigdemcakir/.nuget/packages/": {}
+    "/Users/Levent/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cigdemcakir/Desktop/UpSchool-RealTimeChatApp/RealTimeChatApp-Backend/src/RealTimeChatApp.WebApi/RealTimeChatApp.WebApi.csproj",
+      "projectUniqueName": "/Users/Levent/Desktop/UpSchool-RealTimeChatApp/RealTimeChatApp-Backend/src/RealTimeChatApp.WebApi/RealTimeChatApp.WebApi.csproj",
       "projectName": "RealTimeChatApp.WebApi",
-      "projectPath": "/Users/cigdemcakir/Desktop/UpSchool-RealTimeChatApp/RealTimeChatApp-Backend/src/RealTimeChatApp.WebApi/RealTimeChatApp.WebApi.csproj",
-      "packagesPath": "/Users/cigdemcakir/.nuget/packages/",
-      "outputPath": "/Users/cigdemcakir/Desktop/UpSchool-RealTimeChatApp/RealTimeChatApp-Backend/src/RealTimeChatApp.WebApi/obj/",
+      "projectPath": "/Users/Levent/Desktop/UpSchool-RealTimeChatApp/RealTimeChatApp-Backend/src/RealTimeChatApp.WebApi/RealTimeChatApp.WebApi.csproj",
+      "packagesPath": "/Users/Levent/.nuget/packages/",
+      "outputPath": "/Users/Levent/Desktop/UpSchool-RealTimeChatApp/RealTimeChatApp-Backend/src/RealTimeChatApp.WebApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/cigdemcakir/.nuget/NuGet/NuGet.Config"
+        "/Users/Levent/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/sdk/7.0.305/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -533,7 +534,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
       }
     }
   }
