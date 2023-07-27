@@ -127,23 +127,25 @@ const ChatPage = ({ username }: ChatPageProps) => {
                     ) : (
                         <p>Loading...</p>
                     )}
+                    <div className="chat-form-container">
+                        <form id="chat-form">
+                            <input
+                                type="text"
+                                value={message.content}
+                                onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                                    setMessage({
+                                        ...message,
+                                        content: e.target.value,
+                                        createdOn: new Date(),
+                                    })
+                                }
+                            />
+                            <button onClick={handleSendMessage} className="send-button">Send</button>
+                        </form>
+                    </div>
+
                 </div>
-                <div className="chat-form-container">
-                    <form id="chat-form">
-                        <input
-                            type="text"
-                            value={message.content}
-                            onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                                setMessage({
-                                    ...message,
-                                    content: e.target.value,
-                                    createdOn: new Date(),
-                                })
-                            }
-                        />
-                        <button onClick={handleSendMessage} className="send-button">Send</button>
-                    </form>
-                </div>
+
             </main>
         </div>
         </body>
